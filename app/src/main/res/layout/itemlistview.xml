@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/imageAvater"
+           android:layout_width="55dp"
+           android:layout_height="55dp"
+           android:src="@mipmap/ic_launcher"
+
+           ></ImageView>
+       <TextView
+           android:id="@+id/txt1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TuanPhan"
+           android:layout_marginLeft="22dp"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           android:layout_toRightOf="@+id/imageAvater"></TextView>
+       <TextView
+           android:id="@+id/txt2"
+           android:layout_marginLeft="22dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="HUng yen"
+           android:layout_below="@+id/txt1"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           android:layout_toRightOf="@+id/imageAvater"></TextView>
+       <TextView
+           android:id="@+id/txt3"
+           android:layout_marginLeft="22dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Sinh vien"
+           android:layout_below="@+id/txt2"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           android:layout_toRightOf="@+id/imageAvater"></TextView>
+   </RelativeLayout>
+</RelativeLayout>
